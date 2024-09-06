@@ -1,0 +1,21 @@
+:root {
+    --primary: #845ec2;
+    --secondary: #dbe7ed;
+    --accent: #39829b;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--tertiary);
+}
+
+.box {
+    background-color: var(--primary);
+    color: var(--secondary);
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    width: 50px;
+}
